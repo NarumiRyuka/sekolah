@@ -74,10 +74,31 @@
             font-weight: bold;
         }
 
-        .badge.neegeri{
-            
+        .badge.negeri{
+            background-color: #4CAF50; /* hijau untuk negeri */
         }
 
+        .badge.swasta{
+            background-color: #FF5722; /* oranye untuk swasta */
+        }
+
+        .badge.ikut{
+            background-color: #4CAF50; /* hijau untuk ikut ppdb */
+        }
+
+        .badge.tidak-ikut{
+            background-color: #FF5722; /* oranye untuk tidak ikut */
+        }
+
+        /* hover effect untuk baris */
+        tr:hover{
+            background-color: #f1f1f1;
+        }
+
+        /* menambah border pada bagian bawah tabel */
+        table tr:last-child td{
+            border-bottom: none;
+        }
     </style>
 </head>
 <body>
