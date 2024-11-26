@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SEKOLAH</title>
     <style>
         /* style untuk halaman dan header */
         body{
@@ -118,12 +118,12 @@
         ?>
             <tr>
                 <td><?php echo $key +1; ?></td>
-                <td><?php echo $row['kode'] ?></td>
-                <td><?php echo $row['nama_sekolah'] ?></td> 
-                <td><?php echo $row['kelurahan'] ?></td> 
-                <td><?php echo $row['kecamatan'] ?></td>
-                <td><?php echo $row['status_sekolah'] ?></td>
-                <td><?php echo $row['ikut_ppdb'] ?></td>
+                <td><?php echo $row['KODE'] ?></td>
+                <td><?php echo $row['NAMA_SEKOLAH'] ?></td> 
+                <td><?php echo $row['KELURAHAN'] ?></td> 
+                <td><?php echo $row['KECAMATAN'] ?></td>
+                <td><?php echo $row['STATUS_SEKOLAH'] ?></td>
+                <td><?php echo $row['Ikut_PPDB'] ?></td>
             </tr>
             <?php } ?>
     </table>
